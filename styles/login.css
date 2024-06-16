@@ -193,11 +193,11 @@
 
 	@media screen and (min-width: 1024px) {
 		#Btn_Entrar{
-			top: 120px;
+			top: -15px;
 			left: 35%;
 		}
 		#Login {
-			height: 1024px;
+			height: 740px;
 			width: 768px;
 			background-color: rgba(5, 44, 65, 1);
 
@@ -206,31 +206,31 @@
 		#Logo{
 			width: 10%;
 			height: 10%;
-			top: -70px;
+			top: -90px;
 		}
 
 		#FloraDigital{
 			width: 20%;
 			left: 12%;
-			top: -130px;
+			top: -150px;
 			font-size: 35px;
 		}
 
 		#Iniciar_Sesin {
 			width: 20%;
 			left: 28%;
-			top: -90px;
-			font-size: 60px;
+			top: -135px;
+			font-size: 40px;
 		}
 
 		#Image_21 {
-			top: -70px;
+			top: -130px;
 			left: 27%;
 		}
 
 
 #Group_6 {
-	top: 60%;
+	top: 68%;
 	left: 20%;
 }
 
@@ -240,7 +240,7 @@
 
 
 #Group_7{
-	top: 63%;
+	top: 70%;
 	left: 20%;
 }
 

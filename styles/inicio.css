@@ -52,7 +52,7 @@ html, body {
 
 #FloraDigital {
 	left: 0px;
-	top: 0px;
+	top: 50px;
 	position: absolute;
 	overflow: visible;
 	width: 269px;
@@ -82,8 +82,7 @@ html, body {
 	width: 205px;
 	height: 116px;
 	left: 223px;
-	top: 810px;
-	overflow:hidden;
+	top: 820px;
 	margin: 0;
 	border: none;
     box-shadow: none;
@@ -95,7 +94,7 @@ html, body {
 	width: 205px;
 	height: 116px;
 	left: -140px;
-	top: 10px;
+	top: 70px;
 	overflow: hidden;
 	transform: matrix(1,0,0,1,127,-10) rotate(180deg);
 }
@@ -188,42 +187,43 @@ html, body {
 @media screen and (min-width: 1024px) {
     #Pantalla_Inicial {
         width: 768px;
-        height: 1024px;
+        height: 740px;
 		background-color: rgba(5,44,65,1);
-
     }
 
 	#Logo{
 		width: 50%;
 		left: 25%;
+		top: 170px;
 	}
 
 	#FloraDigital{
 		left: 50%;
+		top: -30px;
 		font-size: 60px;
 	}
 
 	#RamaI{
 		left: 74%;
-		top: 87%;
+		top: 84%;
 	}
 
 	#RamaS{
-		top: 2%;
+		top: 1%;
 	}
 
 	#Boton{
 		left: 32%;
-		top: 64%;
+		top: 72%;
 	}
 
 	#No_tienes_cuenta_{
 		left: 28%;
-		top: 76%;
+		top: 85%;
 	}
 
 	#Regstrate{
 		left: 58%;
-		top: 76%;
+		top: 85%;
 	}
 }
