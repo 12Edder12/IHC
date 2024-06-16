@@ -1,0 +1,608 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+}
+
+#Menu_Principal {
+  position: absolute;
+  width: 428px;
+  height: 926px;
+  background-color: rgba(5, 44, 65, 1);
+  overflow: hidden;
+}
+
+#Opciones {
+  position: absolute;
+  width: 373px;
+  height: 50px;
+  left: 34px;
+  top: 153px;
+  overflow: visible;
+}
+#Todo {
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  overflow: visible;
+  width: 56px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 1);
+}
+#Oficina {
+  left: 86px;
+  top: 0px;
+  position: absolute;
+  overflow: visible;
+  width: 81px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 1);
+}
+#Casa {
+  left: 199px;
+  top: 0px;
+  position: absolute;
+  overflow: visible;
+  width: 57px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 1);
+}
+#Bonzais {
+  left: 283px;
+  top: 0px;
+  position: absolute;
+  overflow: visible;
+  width: 91px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#Popular {
+  left: 24px;
+  top: 523px;
+  position: absolute;
+  overflow: visible;
+  width: 98px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 29px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#Nombre3 {
+  left: 285px;
+  font-weight: bold;
+  top: -160px;
+  position: relative;
+  width: 98px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 21px;
+  z-index: 5;
+  color: rgb(0, 0, 0);
+}
+
+#Nombre4 {
+  left: 32px;
+  font-weight: bold;
+  top: -160px;
+  position: relative;
+  width: 98px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 21px;
+  z-index: 5;
+  color: rgb(0, 0, 0);
+}
+
+#Planta3 {
+  position: absolute;
+  width: 428px;
+  height: 221.5px;
+  left: -14px;
+  top: 594px;
+  overflow: visible;
+}
+
+#Planta4 {
+  position: absolute;
+  width: 428px;
+  height: 221.5px;
+  left: -225px;
+  top: 594px;
+  overflow: visible;
+}
+
+#ContenedorPlantaPopular {
+  fill: rgba(235, 220, 203, 1);
+  stroke: rgba(17, 151, 114, 1);
+  stroke-width: 3px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.ContenedorPlantaPopular {
+  position: relative;
+  overflow: visible;
+  width: 173px;
+  height: 161px;
+  left: 250px;
+  top: 0px;
+}
+
+.bolita {
+  position: relative;
+  bottom: -20px; /* Ajuste para colocar la bolita un poco más abajo */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20px; /* Ajuste para el tamaño de la bolita */
+  height: 20px; /* Ajuste para el tamaño de la bolita */
+  background-color: #51c716; /* Color de la bolita */
+  border-radius: 50%;
+  opacity: 0.1;
+  transition: opacity 0.3s ease;
+}
+
+.opcion.active .bolita {
+  opacity: 1; /* Hacer la bolita completamente visible cuando la opción está activa */
+}
+
+#Buscador {
+  position: relative;
+  width: 385px;
+  height: 41px;
+  left: 22px;
+  top: 97px;
+  overflow: visible;
+}
+
+#Buscador {
+  display: inline-block;
+  position: relative;
+}
+
+.input-container {
+  position: relative;
+}
+
+#searchInput {
+  background-color: #ebdccb;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  padding-right: 40px; /* Espacio para el icono */
+  width: 100%;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/buscar1.png");
+  background-size: cover;
+  cursor: pointer;
+}
+
+#Buscar {
+  left: 13px;
+  top: 2px;
+  position: absolute;
+  overflow: visible;
+  width: 94px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(0, 0, 0, 1);
+}
+
+#Lupa {
+  left: 337px;
+  top: 6px;
+  position: absolute;
+  overflow: visible;
+  width: 31px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Font Awesome 6 Free Solid;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(0, 0, 0, 1);
+}
+
+#Cuadro_Precio {
+  fill: rgba(235, 220, 203, 1);
+  stroke: rgba(17, 151, 114, 1);
+  stroke-width: 3px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.Cuadro_Precio {
+  overflow: visible;
+  position: absolute;
+  width: 173px;
+  height: 54px;
+  left: 0px;
+  top: 190px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#Planta2 {
+  position: absolute;
+  width: 172px;
+  height: 244px;
+  left: 236.5px;
+  top: 236px;
+}
+
+#Planta1 {
+  position: absolute;
+  width: 172px;
+  height: 244px;
+  left: 25px;
+  top: 236px;
+  cursor: pointer;
+}
+
+#CuadroImagen {
+  fill: rgba(235, 220, 203, 1);
+  stroke: rgba(17, 151, 114, 1);
+  stroke-width: 3px;
+  stroke-linejoin: round;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.CuadroImagen {
+  position: absolute;
+  overflow: visible;
+  width: 172px;
+  height: 190px;
+  left: 0px;
+  top: 0px;
+}
+
+#ContenedorPrecio {
+  fill: rgba(235, 220, 203, 1);
+  stroke: rgba(17, 151, 114, 1);
+  stroke-width: 3px;
+  stroke-linejoin: round;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.ContenedorPrecio {
+  position: absolute;
+  overflow: visible;
+  width: 172px;
+  height: 54px;
+  left: 0px;
+  top: 190px;
+}
+
+#Planta1 #Nombre1 {
+  left: 5px;
+}
+
+#Nombre1 {
+  left: 30px;
+  top: 207px;
+  position: absolute;
+  overflow: visible;
+  width: 106px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 1);
+}
+
+#Nombre {
+  left: 30px;
+  top: 207px;
+  position: absolute;
+  overflow: visible;
+  width: 106px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 1);
+}
+
+#Nombre2 {
+  left: 30px;
+  top: 207px;
+  position: absolute;
+  overflow: visible;
+  width: 106px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 1);
+}
+
+#Imagen1 {
+  position: absolute;
+  width: 155px;
+  border-radius: 40px; 
+  height: 164px;
+  left: 10px;
+  top: 15px;
+}
+
+#Imagen2 {
+  position: absolute;
+  width: 155px;
+  border-radius: 40px; 
+  height: 164px;
+  left: 10px;
+  top: 15px;
+}
+
+#ImageP3 {
+  position: relative;
+  width: 87px;
+  height: 87px;
+  top: -152px;
+  border-radius: 200px; 
+  left: 290px;
+}
+
+#ImageP4 {
+  position: relative;
+  width: 87px;
+  border-radius: 200px; 
+  height: 87px;
+  top: -152px;
+  left: 290px;
+}
+
+#Precio1 {
+  left: 320px;
+  top: -150px;
+  position: relative;
+  overflow: visible;
+  width: 23px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  color: rgba(0, 0, 0, 1);
+}
+
+#Precio2 {
+  left: 320px;
+  top: -150px;
+  position: relative;
+  overflow: visible;
+  width: 23px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  color: rgba(0, 0, 0, 1);
+}
+
+#Encabezado {
+  position: absolute;
+  width: 204px;
+  height: 58px;
+  left: 10px;
+  top: 17px;
+  overflow: visible;
+}
+#TituloApp {
+  position: absolute;
+  width: 140px;
+  height: 30px;
+  left: 64px;
+  top: 14px;
+  overflow: visible;
+}
+
+#FloraDigital {
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  overflow: visible;
+  width: 141px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.icon-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 790px;
+}
+
+.icon {
+  width: 80px;
+  height: 80px;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+}
+
+#Planta4 #Nombre4 {
+  left: 290px;
+}
+
+.icon.active {
+  opacity: 1;
+}
+
+#Logo {
+  width: 60px; /* Cambia esto al tamaño que desees */
+  height: auto; /* Esto mantendrá la relación de aspecto de la imagen */
+}
+
+@media screen and (min-width: 1024px) {
+  #Menu_Principal {
+    height: 1024px;
+    width: 768px;
+    background-color: rgba(5, 44, 65, 1);
+  }
+
+  #icon-casa,
+  #icon-settings,
+  #icon-carro {
+    width: 120px;
+    height: 120px;
+  }
+
+  #Logo {
+    width: 100px;
+  }
+
+  #FloraDigital {
+    font-size: 35px;
+    left: 40px;
+    top: 10px;
+  }
+
+  #Buscador {
+    width: 600px;
+    left: 84px;
+    top: 145px;
+  }
+
+  #searchInput {
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 20px;
+    padding-right: 50px; /* Espacio para el icono */
+    width: 100%;
+  }
+
+  #Buscar {
+    font-size: 40px;
+    left: 20px;
+  }
+
+  #Opciones {
+    width: 600px;
+    height: 70px;
+    left: 200px;
+    top: 210px;
+  }
+
+  #Planta1 {
+    left: 80px;
+    top: 310px;
+  }
+
+  #CuadroImagen,
+  #ContenedorPrecio {
+    width: 250px;
+  }
+
+  #Planta2 {
+    left: 450px;
+    top: 310px;
+  }
+
+  #Todo,
+  #Oficina,
+  #Casa,
+  #Bonzais {
+    font-size: 30px;
+  }
+
+  #Imagen1{
+  	left: 50px;
+  }
+
+  #Imagen2{
+	left: 50px;
+  }
+
+  #Planta1 #Nombre1{
+	left: 50px;
+  }
+
+  #Planta2 #Nombre2{
+	left: 67px;
+}
+
+  #Planta4{
+    top: 635px;
+    left: -110px;
+  }
+
+  #Planta3 {
+    left: 220px;
+    top: 635px;
+  
+  }
+
+#Popular{
+	left: 80px;
+	top: 580px;
+}
+
+}

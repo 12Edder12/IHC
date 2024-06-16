@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" id="applicationStylesheet" href="styles/stripe.css"/>
+<title>Stripe</title>
+
+</head>
+<body>
+<div id="Stripe">
+    <div id="Hoja2_do">
+        <img id="Rama" src="img/rama_piel.png">
+    </div>
+    <div id="Titulo">
+        <span>Pago con tarjeta</span>
+    </div>
+    <div id="Llene_los_siguientes_campos">
+        <span>Llene los siguientes campos</span>
+    </div>
+    <svg class="Separador">
+        <path id="Separador" d="M 0 0 L 428 0"></path>
+    </svg>
+
+    <div id="form-container">
+        <div class="input-field">
+            <label for="numero-tarjeta">Número de tarjeta</label>
+            <input type="text" id="numero-tarjeta" name="numero-tarjeta" placeholder="Número de tarjeta">
+        </div>
+        <div class="split-inputs">
+            <div class="input-field">
+                <label for="mm-yy">MM/YY</label>
+                <input type="text" id="mm-yy" name="mm-yy" placeholder="MM/YY">
+            </div>
+            <div class="input-field">
+                <label for="cvc">CVC</label>
+                <input type="text" id="cvc" name="cvc" placeholder="CVC">
+            </div>
+        </div>
+        <div class="input-field">
+            <label for="region">Región</label>
+            <input type="text" id="region" name="region" placeholder="Región">
+        </div>
+        <div class="input-field">
+            <label for="titular">Titular de la tarjeta</label>
+            <input type="text" id="titular" name="titular" placeholder="Titular de la tarjeta">
+        </div>
+    </div>
+
+    <img onclick="window.location.href='Carrito.html'"  src="img/regresar.png">
+
+    <div onclick="window.location.href='Pago_Exitoso.html'" id="Boton" class="Boton">
+        <svg class="Contenedor_Boton">
+            <rect id="Contenedor_Boton" rx="24" ry="24" x="0" y="0" width="283" height="73"></rect>
+        </svg>
+        <div id="Finalizar_compra">
+            <span>Finalizar compra</span>
+        </div>
+    </div>
+</div>
+</body>
+</html>

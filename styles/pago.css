@@ -1,0 +1,126 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+
+#Pago_Existoso {
+	position: absolute;
+	width: 428px;
+	height: 926px;
+	background-color: rgba(5,44,65,1);
+	overflow: hidden;
+}
+
+#Hoja2 {
+	position: absolute;
+	width: 391px;
+	height: 715px;
+	left: -251px;
+	top: 95px;
+	overflow: visible;
+}
+
+#Image_29 {
+	position: absolute;
+	width: 391px;
+	height: 715px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	margin: 0 auto; /* Centrar horizontalmente */
+    margin-top: -100px; /* Ajuste manual hacia arriba */
+}
+
+#Recibo_Datos {
+	position: absolute;
+	width: 100%;
+	height: auto;
+	top: 200px;
+	text-align: center;
+	color: rgba(255, 255, 255, 1);
+}
+
+#Imagen {
+    width: 205px;
+    height: 194px;
+    margin: 0 auto; /* Centrar horizontalmente */
+    margin-top: -250px; /* Ajuste manual hacia arriba */
+}
+
+
+#Pago_Realizado_Con_Exito {
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	margin: 20px 0;
+}
+
+#Su_Ticket_de_Retiro_Es {
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	margin: 20px 0;
+}
+
+#Ticket_Numero {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	margin: 20px 0;
+	border: 2px solid #119772; /* Añadir borde de color #119772 */
+	padding: 10px; /* Añadir padding para que el texto no esté pegado al borde */
+	width: fit-content; /* Ajustar el ancho al contenido */
+	margin: 20px auto; /* Centrar el div horizontalmente */
+}
+
+#Separador {
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 41px;
+    margin: 20px 0; /* Margen superior e inferior */
+    margin-top: -310px; /* Ajuste manual hacia arriba */
+}
+
+#Boton {
+	position: absolute;
+	width: 283px;
+	height: 73px;
+	left: 73px;
+	top: 650px;
+	cursor: pointer;
+}
+
+.Contenedor_Boton {
+	position: absolute;
+	width: 283px;
+	height: 73px;
+	background-color: rgba(81,199,22,1);
+	border: 5px solid rgba(17,151,114,1);
+	border-radius: 24px;
+}
+
+#Continuar {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	color: rgba(0,0,0,1);
+}
+
+#Boton:hover .Contenedor_Boton {
+    background-color: rgba(17,151,114,1); /* Cambiar color del rectángulo */
+}
+
+#Boton:hover #Continuar {
+    color: rgba(255, 255, 255, 1); /* Cambiar color del texto a blanco */
+}

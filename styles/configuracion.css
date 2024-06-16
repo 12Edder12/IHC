@@ -1,0 +1,343 @@
+
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+    
+	#Configuracion {
+		position: absolute;
+		width: 428px;
+		height: 926px;
+		background-color: rgba(5,44,65,1);
+		overflow: hidden;
+	}
+
+	#Rama3 {
+		position: absolute;
+		width: 341px;
+		height: 323px;
+		left: -170px;
+		top: 494px;
+		z-index: 0;
+		overflow: visible;
+		transform: matrix(1,0,0,1,127,-10) rotate(180deg);
+	}
+
+	
+	
+	#Rama3_ca {
+		transform-origin: center;
+		position: absolute;
+		width: 341px;
+		height: 323px;
+		left: 120px;
+		top: -22px;
+		overflow: visible;
+	}
+	
+	#Buscador_cc {
+		position: absolute;
+		width: 389px;
+		height: 68px;
+		left: 20px;
+		top: 117px;
+		overflow: visible;
+	}
+	
+	#Configuracin {
+		left: 19px;
+		top: 37px;
+		position: absolute;
+		overflow: visible;
+		width: 323px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Raleway;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 48px;
+		color: rgba(255,255,255,1);
+	}
+	#Buscador_ch {
+		position: absolute;
+		width: 389px;
+		height: 68px;
+		left: 20px;
+		top: 117px;
+		overflow: visible;
+	}
+	#Path_6 {
+		fill: rgba(235,220,203,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_6 {
+		overflow: visible;
+		position: absolute;
+		width: 389px;
+		height: 68px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Cuenta_cj {
+		left: 18px;
+		top: 16px;
+		position: absolute;
+		overflow: visible;
+		width: 111px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(0,0,0,1);
+	}
+	
+	#_cr {
+		left: 314.5px;
+		top: 15.5px;
+		position: absolute;
+		overflow: visible;
+		width: 68px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Font Awesome 6 Free Solid;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 67px;
+		color: rgba(255,255,255,1);
+	}
+	#Buscador_cs {
+		position: absolute;
+		width: 389px;
+		height: 68px;
+		left: 20px;
+		top: 223px;
+		overflow: visible;
+	}
+	#Path_6_ct {
+		fill: rgba(235,220,203,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_6_ct {
+		overflow: visible;
+		position: absolute;
+		width: 389px;
+		height: 68px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Notificaciones {
+		left: 18px;
+		top: 16px;
+		position: absolute;
+		overflow: visible;
+		width: 225px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(0,0,0,1);
+	}
+	#Image_32 {
+		position: absolute;
+		width: 59px;
+		height: 52px;
+		left: 317px;
+		top: 8px;
+		overflow: visible;
+	}
+	#Buscador_cw {
+		position: absolute;
+		width: 389px;
+		height: 68px;
+		left: 20px;
+		top: 329px;
+		overflow: visible;
+	}
+	#Path_6_cx {
+		fill: rgba(235,220,203,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_6_cx {
+		overflow: visible;
+		position: absolute;
+		width: 389px;
+		height: 68px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Seguridad {
+		left: 18px;
+		top: 16px;
+		position: absolute;
+		overflow: visible;
+		width: 158px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(0,0,0,1);
+	}
+	#Image_33 {
+		position: absolute;
+		width: 42px;
+		height: 46px;
+		left: 329px;
+		top: 12px;
+		overflow: visible;
+	}
+	#Buscador_c {
+		position: absolute;
+		width: 389px;
+		height: 68px;
+		left: 20px;
+		top: 435px;
+		overflow: visible;
+	}
+	#Path_6_c {
+		fill: rgba(235,220,203,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	
+	#Preferencias {
+		left: 18px;
+		top: 16px;
+		position: absolute;
+		overflow: visible;
+		width: 197px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(0,0,0,1);
+	}
+	
+	#Image_31 {
+		position: absolute;
+		width: 43px;
+		height: 44px;
+		left: 327px;
+		top: 15px;
+		overflow: visible;
+	}
+	#Image_34 {
+		position: absolute;
+		width: 54px;
+		height: 50px;
+		left: 345px;
+		top: 446px;
+		overflow: visible;
+	}
+
+    #Boton {
+        position: absolute;
+        width: 283px;
+        height: 73px;
+        left: 73px;
+        top: 650px;
+        cursor: pointer;
+    }
+    
+    .Rectangle_9_dh {
+        position: absolute;
+        width: 283px;
+        height: 73px;
+        background-color: rgba(81,199,22,1);
+        border: 5px solid rgba(17,151,114,1);
+        border-radius: 24px;
+    }
+ 
+    #CerrarS {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 23px;
+        color: rgba(0,0,0,1);
+    }
+
+    #Boton:hover .Rectangle_9_dh {
+        background-color: rgba(17,151,114,1); /* Cambiar color del rectángulo */
+    }
+    
+    #Boton:hover #CerrarS{
+        color: rgba(255, 255, 255, 1); /* Cambiar color del texto a blanco */
+    }
+
+
+	.icon-container {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		margin-top: 830px;
+	}
+	
+	.icon {
+		width: 80px; /* Ajusta el tamaño según sea necesario */
+		height: 80px; /* Ajusta el tamaño según sea necesario */
+		opacity: 0.5;
+		transition: opacity 0.3s ease;
+		cursor: pointer;
+		z-index: 5;
+	}
+	
+	.icon.active {
+		opacity: 1;
+	}
+	
+	.horizontal-line {
+		position: absolute;
+		top: 816px;
+		left: 0;
+		width: 100%;
+		height: 1px; /* Ajusta el grosor de la línea */
+		background-color: white;
+		transform: translateY(-50%);
+	}
+
+	#Cuenta_cj:hover,
+#Notificaciones:hover,
+#Seguridad:hover,
+#Preferencias:hover {
+    color: black;
+}
+
+.hover-section span:hover {
+    color: black;
+}
+

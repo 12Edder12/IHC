@@ -1,0 +1,232 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(0, 0, 0);
+}
+
+
+#Vista_Detalle {
+	position: relative;
+	width: 428px;
+	height: 926px;
+	background-color: rgba(5,44,65,1);
+	overflow: hidden;
+}
+#Hoja1 {
+	position: relative;
+	width: 491px;
+	height: 154px;
+	left: -38px;
+	top: -31px;
+}
+#Titulo {
+	left: 121px;
+	top: -45px;
+	position: relative;
+	width: 188px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+#Imagen {
+	position: relative;
+	width: 319px;
+	height: 324px;
+	left: 55px;
+	top: -10px;
+}
+#Descripcion {
+	left: 5px;
+	top: 20px;
+	position: relative;
+	width: 419px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	color: rgba(255,255,255,1);
+}
+#Regresar {
+	position: relative;
+	width: 79px;
+	height: 56px;
+	left: 10px;
+	top: -580px;
+	cursor: pointer;
+}
+#Necesidades {
+	left: 14px;
+	top: 5px;
+	position: relative;
+	width: 360px;
+	white-space: nowrap;
+	line-height: 35px;
+	margin-top: -6.5px;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	color: rgba(255,255,255,1);
+	display: flex;
+	flex-direction: column;
+}
+.necesidad {
+	display: flex;
+	align-items: center;
+	margin-bottom: 5px;
+}
+.icono img {
+	width: 25px;
+	height: 25px;
+	margin-right: 10px;
+}
+#Separador {
+	fill: transparent;
+	stroke: rgba(255,215,0,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Separador {
+	position: relative;
+	width: 428px;
+	height: 1px;
+	left: 0px;
+	top: -150px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Boton {
+	position: relative;
+	width: 283px;
+	height: 73px;
+	left: 73px;
+	top: 2px;
+	cursor: pointer;
+}
+#Contenedor_Boton {
+	fill: rgba(81,199,22,1);
+	stroke: rgba(17,151,114,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Contenedor_Boton {
+	position: relative;
+	width: 283px;
+	height: 73px;
+	left: -0px;
+	top: -10px;
+}
+#Texto_Boton {
+	left: 44px;
+	top: -70px;
+	position: relative;
+	width: 189px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	color: rgba(0,0,0,1);
+}
+#Contenedor_Boton:hover {
+	fill: rgba(17, 151, 114, 1); /* Color al pasar el cursor sobre el rectángulo */
+}
+#Boton:hover #Texto_Boton span {
+	color: rgba(255, 255, 255, 1); /* Cambia el color del texto al pasar el cursor sobre el botón */
+}
+#Texto_Boton span:hover {
+	color: rgba(0, 0, 0, 1); 
+}
+#Boton:hover #Contenedor_Boton {
+	fill: rgba(17, 151, 114, 1); /* Cambia el color del rectángulo al pasar el cursor sobre el botón */
+}
+
+
+@media screen and (min-width: 1024px) {
+
+#Vista_Detalle{
+	width: 768px;
+	height: 1024px;
+	background-color: rgba(5,44,65,1);
+
+}
+
+#HojaEncabezado{
+	width: 775px;  
+	height:250px; 
+	left: 20px;
+}
+
+#Regresar{
+	width: 120px;
+	height: 80px;
+	left: 10px;
+	top: -560px;
+	cursor: pointer;
+}
+
+#Imagen{
+	left: 200px;
+	top: 20px;
+}
+
+#Titulo{
+	left: 250px;
+	top: 0px;
+	font-size: 40px;
+}
+
+#Bonsai{
+	width: 350px;
+	height: 350px;
+}
+
+#Descripcion{
+	left: 5px;
+	top: 48px;
+	width: 758px;
+	font-size: 30px;}
+
+.Separador {
+    transform: scaleX(3); /* Ajusta este valor a lo que necesites */
+}
+
+#Necesidades{
+	left: 125px;
+	top: 5px;
+	width: 700px;
+	font-size: 30px;}
+
+
+#Boton{
+	width: 283px;
+	height: 73px;
+	left: 240px;
+	top: 2px;
+	cursor: pointer;
+}
+
+}

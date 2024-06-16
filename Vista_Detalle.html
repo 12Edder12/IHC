@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" id="applicationStylesheet" 
+href="styles/detalle.css"/>
+<title>Vista Detalle</title>
+</head> 
+<body>
+<div id="Vista_Detalle">
+	<div id="Hoja1">
+		<img src="img/hojas.png" id="HojaEncabezado">
+	</div>
+	<div id="Titulo">
+		<span>Bonsai Ciprés</span>
+	</div>
+	<div id="Imagen">
+		<img src="img/bonsaiC.png" id="Bonsai">
+	</div>
+	<div id="Descripcion">
+		<span>El Bonsai Ciprés es una planta ornamental 
+			<br/>ideal para interiores. Su forma elegante 
+			<br/>y compacta lo hace perfecto para 
+			<br/>cualquier espacio.
+		</span>
+	</div>
+	<img id="Regresar" onclick="window.location.href='Menu_Principal.html'" src="img/regresar.png">
+	
+	<div id="Necesidades">
+		<div class="necesidad">
+			<div class="icono" id="luz_solar">
+				<img src="img/sol.png" alt="Luz Solar">
+			</div>
+			<span>Luz solar: Prefiere luz solar indirecta.</span>
+		</div>
+		<div class="necesidad">
+			<div class="icono" id="riego">
+				<img src="img/agua.png" alt="Riego">
+			</div>
+			<span>Riego: Suelo ligeramente húmedo.</span>
+		</div>
+		<div class="necesidad">
+			<div class="icono" id="temperatura">
+				<img src="img/temperatura.png" alt="Temperatura">
+			</div>
+			<span>Temperatura: Ideal entre 15-25°C.</span>
+		</div>
+	</div>
+
+	<svg class="Separador">
+		<path id="Separador" d="M 0 0 L 428 0"></path>
+	</svg>
+	
+	<div onclick="window.location.href='Carrito.html'" id="Boton">
+		<svg class="Contenedor_Boton">
+			<rect id="Contenedor_Boton" rx="24" ry="24" x="0" y="0" width="283" height="73">
+			</rect>
+		</svg>
+		<div id="Texto_Boton">
+			<span>Comprar $10</span>
+		</div>
+	</div>
+</div>
+</body>
+</html>

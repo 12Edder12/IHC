@@ -1,0 +1,478 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+  }
+  
+  #Carrito{
+	width: 428px;
+	height: 926px;
+	background-color: rgba(5,44,65,1);
+  }
+
+  html,
+  body {
+	background-color: rgb(0, 0, 0);
+  }
+
+	#Rama_Inferior {
+		transform: matrix(1,0,0,1,127,-10) rotate(180deg);
+		position: absolute;
+		width: 341px;
+		height: 323px;
+		left: -140px;
+		top: 505px;
+		overflow: visible;
+	}
+
+	#Rama_Superior {
+		transform-origin: center;
+		position: absolute;
+		width: 300px;
+		height: 323px;
+		left: 80px;
+		top: 10px;
+		overflow: visible;
+	}
+	
+	#Image_23_ei {
+		position: absolute;
+		width: 341px;
+		height: 323px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+
+	#Image_23_eg {
+		transform: matrix(1,0,0,1,127,-10) rotate(180deg);
+		position: absolute;
+		width: 341px;
+		height: 323px;
+		left: -110px;
+		top: 5px;
+		overflow: visible;
+	}
+
+	#Mi_carrito {
+		left: 16px;
+		top: 159px;
+		position: absolute;
+		overflow: visible;
+		width: 140px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 32px;
+		color: rgba(255,255,255,1);
+	}
+	
+	#Opcion_Popular_el {
+		position: absolute;
+		width: 428px;
+		height: 1px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Separador {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+		
+	}
+
+	#Logo {
+		width: 60px;  
+		height: auto;
+	
+	}
+
+	.Separador{
+		position: absolute;
+		width: 428px;
+		height: 82.5px;
+		left: 0px;
+		top: 819px;
+		overflow: visible;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#_en {
+		left: 50.5px;
+		top: 11.5px;
+		position: absolute;
+		overflow: visible;
+		width: 81px;
+		white-space: nowrap;
+		cursor: pointer;
+		text-align: left;
+		font-family: Font Awesome 6 Free Solid;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 71px;
+		color: rgba(145,129,138,1);
+	}
+	#_eo {
+		left: 182.5px;
+		top: 15.5px;
+		position: absolute;
+		overflow: visible;
+		width: 75px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Font Awesome 6 Free Solid;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 66px;
+		color: rgba(255,255,255,1);
+	}
+	#_ep {
+		left: 314.5px;
+		top: 15.5px;
+		position: absolute;
+		overflow: visible;
+		width: 68px;
+		white-space: nowrap;
+		cursor: pointer;
+		text-align: left;
+		font-family: Font Awesome 6 Free Solid;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 67px;
+		color: rgba(145,129,138,1);
+	}
+	#Planta1 {
+		position: absolute;
+		width: 397px;
+		height: 183px;
+		left: 16px;
+		top: 218px;
+		overflow: visible;
+	}
+	#ContenedorPlanta {
+		fill: rgba(235,220,203,1);
+		stroke: rgba(17,151,114,1);
+		stroke-width: 3px;
+		stroke-linejoin: round;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.ContenedorPlanta {
+		position: absolute;
+		overflow: visible;
+		width: 397px;
+		height: 183px;
+		left: 0px;
+		top: 0px;
+	}
+	#ContenedorPrecio {
+		fill: rgba(5,44,65,1);
+		stroke: rgba(17,151,114,1);
+		stroke-width: 3px;
+		stroke-linejoin: round;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.ContenedorPrecio {
+		position: absolute;
+		width: 79px;
+		height: 42px;
+		left: 318px;
+		top: 141px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Nombre1 {
+		left: 21px;
+		top: 9px;
+		position: absolute;
+		width: 154px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(0,0,0,1);
+	}
+	#Precio1 {
+		left: 343px;
+		top: 149px;
+		position: absolute;
+		width: 44px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+
+	#Imagen1 {
+		position: absolute;
+		width: 120px;
+		height: 130px;
+		left: 15px;
+		top: 37px;
+	}
+
+	#Detalle1 {
+		left: 150px;
+		top: 60px;
+		position: relative;
+		width: 227px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+		z-index: 5;
+	}
+	#Planta2 {
+		position: absolute;
+		width: 397px;
+		height: 183px;
+		left: 16px;
+		top: 423px;
+	}
+	#ContenedorPlanta2 {
+		fill: rgba(235,220,203,1);
+		stroke: rgba(17,151,114,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.ContenedorPlanta2 {
+		position: absolute;
+		width: 397px;
+		height: 183px;
+		left: 0px;
+		top: 0px;
+	}
+	#ContenedorPrecio2 {
+		fill: rgba(5,44,65,1);
+		stroke: rgba(17,151,114,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.ContenedorPrecio2 {
+		position: absolute;
+		width: 79px;
+		height: 42px;
+		left: 318px;
+		top: 141px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Nombre2 {
+		left: 21px;
+		top: 16px;
+		position: absolute;
+		width: 83px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(0,0,0,1);
+	}
+	#Precio2 {
+		left: 343px;
+		top: 149px;
+		position: absolute;
+		width: 44px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+
+	
+	#Imagen2 {
+		position: absolute;
+		width: 116px;
+		height: 116px;
+		left: 15px;
+		top: 50px;
+	}
+
+	#Detalle2 {
+		left: 150px;
+		z-index: 5;
+		top: 60px;
+		position: absolute;
+		width: 234px;
+		height: 66px;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	
+
+
+	#Buscador {
+		position: absolute;
+		width: 385px;
+		height: 41px;
+		left: 22px;
+		top: 97px;
+	}
+	
+	
+	#Buscador {
+		display: inline-block;
+		position: relative;
+	}
+	
+	.input-container {
+		position: relative;
+	}
+	
+	#searchInput {
+		background-color: #EBDCCB;
+		border: none;
+		border-radius: 17px;
+		padding: 10px;
+		padding-right: 40px; /* Espacio para el icono */
+		width: 100%;
+	}
+	
+	.search-icon {
+		position: absolute;
+		top: 50%;
+		right: 10px;
+		transform: translateY(-50%);
+		width: 20px;
+		height: 20px;
+		background-image: url('../img/buscar1.png');
+		background-size: cover;
+		cursor: pointer;
+	}
+
+	#Boton {
+		position: absolute;
+		width: 211px;
+		height: 73px;
+		left: 109px;
+		top: 708px;
+		cursor: pointer;
+	}
+	#Contenedor_Boton {
+		fill: rgba(81,199,22,1);
+		stroke: rgba(17,151,114,1);
+		stroke-width: 5px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Contenedor_Boton {
+		position: absolute;
+		width: 211px;
+		height: 73px;
+		left: 0px;
+		top: 0px;
+	}
+	#Pagar {
+		left: 63px;
+		top: 18px;
+		position: absolute;
+		width: 86px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 32px;
+		color: rgba(0,0,0,1);
+	}
+	#Encabezado {
+		position: absolute;
+		width: 204px;
+		height: 58px;
+		left: 15px;
+		top: 20px;
+	}
+	
+	
+	#App {
+		position: absolute;
+		width: 140px;
+		height: 30px;
+		left: 64px;
+		top: 14px;
+	}
+
+	#FloraDigital {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		width: 141px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Raleway;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+
+
+	#Contenedor_Boton:hover {
+		fill: rgba(17, 151, 114, 1); /* Color al pasar el cursor sobre el rectángulo */
+	}
+
+	#Boton:hover #Pagar span {
+		color: rgba(255, 255, 255, 1); 
+	}
+
+	#Pagar span:hover {
+		color: rgba(0, 0, 0, 1); 
+	}
+
+	#Boton:hover #Contenedor_Boton {
+		fill: rgba(17, 151, 114, 1); 
+	}
+
+	.icon-container {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		margin-top: 790px;
+		
+	}
+	
+	.icon {
+		width: 80px; /* Ajusta el tamaño según sea necesario */
+		height: 80px; /* Ajusta el tamaño según sea necesario */
+		opacity: 0.5;
+		transition: opacity 0.3s ease;
+		cursor: pointer;
+	}
+	
+	.icon.active {
+		opacity: 1;
+	}
+	

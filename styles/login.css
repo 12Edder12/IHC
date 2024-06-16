@@ -1,0 +1,247 @@
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+
+	body {
+		background-color: black;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100vh;
+		margin: 0;
+	}
+
+	.input-field {
+		background-color: #EBDCCB;
+		border: none;
+		padding: 15px;
+		width: 200px;
+		height: 40px;
+		bottom: 250px;
+		position: relative;
+		top: -10px;
+	}
+
+	#Login {
+		width: 428px;
+		height: 926px;
+		background-color: rgba(5, 44, 65, 1);
+		
+	}
+
+	#Group_6 {
+		position: relative;
+		width: 389px;
+		height: 70px;
+		left: 21px;
+		top: 550px;
+		overflow: visible;
+	}
+
+	#Correo_Electrnico {
+		position: relative;
+		width: 148px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 29px;
+		color: rgba(255, 255, 255, 1);
+	}
+
+	#Group_7 {
+		position:relative;
+		width: 392px;
+		height: 39px;
+		left: 18px;
+		top: 600px;
+		overflow: visible;
+	}
+
+	#Contrasea {
+		left: 0px;
+		top: 2px;
+		position: absolute;
+		overflow: visible;
+		width: 150px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 29px;
+		color: rgba(255, 255, 255, 1);
+	}
+
+	#Logo {
+		position: relative;
+		width: 61px;
+		height: 58px;
+		top: -100px;
+		left: 5px;
+	}
+
+	#FloraDigital {
+		top: -145px;
+		left: 70px;
+		position: relative;
+		width: 141px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Raleway;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(255, 255, 255, 1);
+	}
+
+	#Iniciar_Sesin {
+		left: 63px;
+		top: -100px;
+		position:relative;
+		width: 304px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Raleway;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 48px;
+		color: rgba(255, 255, 255, 1);
+	}
+
+	#Image_21 {
+		position: relative;
+		width: 389px;
+		height: 375px;
+		left: 20px;
+		top: -90px;
+		overflow: visible;
+	}
+
+	#Btn_Entrar {
+		cursor: pointer;
+		position: relative;
+		width: 283px;
+		height: 73px;
+		left: 73px;
+		top: 120px;
+		overflow: visible;
+	}
+
+	#Contenedor_Boton {
+		fill: rgba(81, 199, 22, 1);
+		stroke: rgba(17, 151, 114, 1);
+		stroke-width: 5px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+
+	.Contenedor_Boton {
+		position: absolute;
+		overflow: visible;
+		width: 283px;
+		height: 73px;
+		left: 0px;
+		top: 0px;
+	}
+
+	#Entrar {
+		left: 78px;
+		top: 18px;
+		position: absolute;
+		overflow: visible;
+		width: 88px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 32px;
+		color: rgba(0, 0, 0, 1);
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+
+
+	#Contenedor_Boton:hover {
+		fill: rgba(17, 151, 114, 1);
+		/* Color al pasar el cursor sobre el rectángulo */
+	}
+
+	#Btn_Entrar:hover #Entrar {
+		color: rgba(255, 255, 255, 1);
+		/* Cambia el color del texto al pasar el cursor sobre el botón */
+	}
+
+	#Entrar:hover {
+		color: rgba(0, 0, 0, 1);
+	}
+
+	#Btn_Entrar:hover #Contenedor_Boton {
+		fill: rgba(17, 151, 114, 1);
+		/* Cambia el color del rectángulo al pasar el cursor sobre el botón */
+	}
+
+
+	@media screen and (min-width: 1024px) {
+		#Btn_Entrar{
+			top: 120px;
+			left: 35%;
+		}
+		#Login {
+			height: 1024px;
+			width: 768px;
+			background-color: rgba(5, 44, 65, 1);
+
+		}
+
+		#Logo{
+			width: 10%;
+			height: 10%;
+			top: -70px;
+		}
+
+		#FloraDigital{
+			width: 20%;
+			left: 12%;
+			top: -130px;
+			font-size: 35px;
+		}
+
+		#Iniciar_Sesin {
+			width: 20%;
+			left: 28%;
+			top: -90px;
+			font-size: 60px;
+		}
+
+		#Image_21 {
+			top: -70px;
+			left: 27%;
+		}
+
+
+#Group_6 {
+	top: 60%;
+	left: 20%;
+}
+
+#email, #password{
+	width: 200%;
+}
+
+
+#Group_7{
+	top: 63%;
+	left: 20%;
+}
+
+	}

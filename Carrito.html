@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" 
+id="applicationStylesheet" href="styles/carrito.css"/>
+<title>Carrito</title>
+</head>
+<body>
+<div id="main-container">
+    <div id="Carrito">
+        <div id="Rama_Inferior" >
+            <img src="img/ramas.png">
+        </div>
+        <div id="Rama_Superior">
+            <img src="img/ramas.png">
+        </div>
+        <div id="Mi_carrito">
+            <span>Mi carrito</span>
+        </div>
+        <svg class="Separador">
+            <path id="Separador" d="M 0 0 L 428 0"></path>
+        </svg>
+        <div id="Planta1">
+            <svg class="ContenedorPlanta">
+                <rect id="ContenedorPlanta" rx="0" ry="0" x="0" y="0" width="397" height="183"></rect>
+            </svg>
+            <svg class="ContenedorPrecio">
+                <path id="ContenedorPrecio" d="M 0 0 L 79 0 L 79 42 L 0 42 L 0 0 Z"></path>
+            </svg>
+            <div id="Nombre1">
+                <span>Bonsai Ciprés</span>
+            </div>
+            <div id="Precio1">
+                <span>10$</span>
+            </div>
+            <img id="Imagen1" src="img/bonsaiC.png">
+			<div id="Detalle1">
+				<span>Altura: 30-40 cm<br/>Ancho del tronco: 2-3 cm<br/>Diámetro de la maceta: 15 cm</span>
+			</div>
+
+        </div>
+
+        
+        <div id="Planta2">
+            <svg class="ContenedorPlanta2">
+                <rect id="ContenedorPlanta2" rx="0" ry="0" x="0" y="0" width="397" height="183"></rect>
+            </svg>
+            <svg class="ContenedorPrecio2">
+                <path id="ContenedorPrecio2" d="M 0 0 L 79 0 L 79 42 L 0 42 L 0 0 Z"></path>
+            </svg>
+            <div id="Nombre2">
+                <span>Tomillo</span>
+            </div>
+            <div id="Precio2">
+                <span>12$</span>
+            </div>
+                <img id="Imagen2" src="./img/tomillo.png">
+				<div id="Detalle2">
+					<span>Altura: 20-30 cm<br/>Ancho del tronco: 1-2 cm<br/>Diámetro de la maceta: 10 cm</span>
+				</div>
+        </div>
+        
+        <div id="Buscador">
+            <div class="input-container">
+                <input type="text" id="searchInput" placeholder="Buscar">
+                <div class="search-icon"></div>
+            </div>
+        </div>
+
+        <div class="icon-container">
+            <img onclick="window.location.href='Menu_Principal.html'" id="icon-casa" src="img/casa.png" class="icon">
+            <img onclick="window.location.href='Carrito.html'" id="icon-carro" src="img/carro.png" class="icon active">
+            <img onclick="window.location.href='Configuracion.html'" id="icon-settings" src="img/settings.png" class="icon">
+        </div>
+
+        <div onclick="window.location.href='stripe.html'" id="Boton" >
+            <svg class="Contenedor_Boton">
+                <rect id="Contenedor_Boton" rx="24" ry="24" x="0" y="0" width="211" height="73"></rect>
+            </svg>
+            <div id="Pagar">
+                <span>Pagar</span>
+            </div>
+        </div>
+
+        <div id="Encabezado" >
+            <img id="Logo" src="img/logo_pantallainicio.png">
+            <div id="App">
+                <div id="FloraDigital">
+                    <span>FloraDigital</span>
+                </div>
+            </div>
+        </div>
+		
+    </div>
+</div>
+</body>
+</html>
