@@ -233,8 +233,15 @@ body {
   background-color: #51c716; /* Color de la bolita */
   border-radius: 50%;
   opacity: 0.1;
+  cursor: pointer;
   transition: opacity 0.3s ease;
 }
+
+.bolita:hover {
+  background-color: #378610; /* Nuevo color al pasar el mouse */
+  opacity: 1; /* Opcional: Cambiar la opacidad al pasar el mouse */
+}
+
 
 .opcion.active .bolita {
   opacity: 1; /* Hacer la bolita completamente visible cuando la opción está activa */

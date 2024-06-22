@@ -4,35 +4,41 @@
 	box-sizing: border-box;
 	border: none;
   }
-  
-  #Carrito{
-	width: 428px;
-	height: 926px;
-	background-color: rgba(5,44,65,1);
-  }
-
   html,
   body {
+	margin-top: 5%;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	background-color: rgb(0, 0, 0);
+  }
+
+  #main-container{
+	position: absolute;
+	width: 428px;
+	height: 926px;
+	background-color: rgba(5, 44, 65, 1);
   }
 
 	#Rama_Inferior {
 		transform: matrix(1,0,0,1,127,-10) rotate(180deg);
-		position: absolute;
+		position: relative;
 		width: 341px;
 		height: 323px;
-		left: -140px;
+		left: -125px;
 		top: 505px;
 		overflow: visible;
 	}
 
 	#Rama_Superior {
 		transform-origin: center;
-		position: absolute;
+		position: relative;
 		width: 300px;
 		height: 323px;
 		left: 80px;
-		top: 10px;
+		top: -320px;
 		overflow: visible;
 	}
 	
@@ -333,11 +339,11 @@
 
 
 	#Buscador {
-		position: absolute;
+		position: relative;
 		width: 385px;
 		height: 41px;
 		left: 22px;
-		top: 97px;
+		top: -550px;
 	}
 	
 	
@@ -460,7 +466,7 @@
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
-		margin-top: 790px;
+		margin-top: 150px;
 		
 	}
 	
@@ -476,3 +482,93 @@
 		opacity: 1;
 	}
 	
+
+	@media screen and (min-width: 1024px) {
+		#main-container {
+		  height: 1024px;
+		  width: 768px;
+		  background-color: rgba(5, 44, 65, 1);
+		}
+	  
+		#icon-casa,
+		#icon-settings,
+		#icon-carro {
+		  width: 120px;
+		  height: 120px;
+		  margin-top: 50px;
+		}
+	  
+	  
+		#Logo {
+		  width: 100px;
+		  margin-top: 15px;
+		}
+
+		#FloraDigital {
+		  font-size: 35px;
+		  left: 40px;
+		  top: 30px;
+		}
+	  
+		#Buscador {
+		  width: 600px;
+		  left: 84px;
+		  top: -500px;
+		}
+	  
+		#searchInput {
+		  border-radius: 25px;
+		  padding: 15px;
+		  font-size: 20px;
+		  padding-right: 50px; /* Espacio para el icono */
+		  width: 100%;
+		}
+	  
+		#Buscar {
+		  font-size: 40px;
+		  left: 20px;
+		}
+
+
+		#Rama_Inferior {
+			transform: matrix(1,0,0,1,127,-10) rotate(180deg);
+			position: relative;
+			width: 341px;
+			height: 323px;
+			left: -125px;
+			top: 505px;
+			overflow: visible;
+		}
+
+		#Rama_Superior {
+			transform-origin: center;
+			position: relative;
+			width: 300px;
+			height: 323px;
+			left: 415px;
+			top: -310px;
+			overflow: visible;
+		}
+
+		#Mi_carrito{
+			top: 210px;
+		}
+
+		#Planta1 {
+			top: 270px;
+			left: 25%;
+			scale: 1.1;
+		}
+
+		#Planta2 {
+			top: 500px;
+			left: 25%;
+			scale: 1.1;
+		}
+
+		#Boton {
+			top: 750px;
+			left: 37%;
+		}
+
+	}
