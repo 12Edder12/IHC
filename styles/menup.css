@@ -27,7 +27,7 @@ body {
   width: 373px;
   height: 50px;
   left: 34px;
-  top: 153px;
+  top: 190px;
   overflow: visible;
 }
 #Todo {
@@ -89,7 +89,7 @@ body {
 
 #Popular {
   left: 24px;
-  top: 523px;
+  top: 565px;
   position: absolute;
   overflow: visible;
   width: 98px;
@@ -102,10 +102,46 @@ body {
   color: rgba(255, 255, 255, 1);
 }
 
+
+
+#Planta3 {
+  position: absolute;
+  width: 428px;
+  height: 221.5px;
+  left: -14px;
+  top: 594px;
+  overflow: visible;
+}
+
+#Precio1 {
+  left: 320px;
+  top: -130px;
+  position: relative;
+  overflow: visible;
+  width: 23px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  color: rgba(0, 0, 0, 1);
+}
+
+
+#ImageP3 {
+  position: relative;
+  width: 87px;
+  height: 87px;
+  top: -125px;
+  border-radius: 200px; 
+  left: 290px;
+}
+
 #Nombre3 {
   left: 285px;
   font-weight: bold;
-  top: -160px;
+  top: -130px;
   position: relative;
   width: 98px;
   white-space: nowrap;
@@ -119,7 +155,7 @@ body {
 #Nombre4 {
   left: 32px;
   font-weight: bold;
-  top: -160px;
+  top: -130px;
   position: relative;
   width: 98px;
   white-space: nowrap;
@@ -130,14 +166,6 @@ body {
   color: rgb(0, 0, 0);
 }
 
-#Planta3 {
-  position: absolute;
-  width: 428px;
-  height: 221.5px;
-  left: -14px;
-  top: 594px;
-  overflow: visible;
-}
 
 #Planta4 {
   position: absolute;
@@ -148,8 +176,35 @@ body {
   overflow: visible;
 }
 
+#ImageP4 {
+  position: relative;
+  width: 87px;
+  border-radius: 200px; 
+  height: 87px;
+  top: -125px;
+  left: 290px;
+}
+
+#Precio2 {
+  left: 320px;
+  top: -130px;
+  position: relative;
+  overflow: visible;
+  width: 23px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  color: rgba(0, 0, 0, 1);
+}
+
+
+
 #ContenedorPlantaPopular {
   fill: rgba(235, 220, 203, 1);
+
   stroke: rgba(17, 151, 114, 1);
   stroke-width: 3px;
   stroke-linejoin: miter;
@@ -163,8 +218,9 @@ body {
   overflow: visible;
   width: 173px;
   height: 161px;
+  border-radius: 10px;
   left: 250px;
-  top: 0px;
+  top: 25px;
 }
 
 .bolita {
@@ -189,7 +245,7 @@ body {
   width: 385px;
   height: 41px;
   left: 22px;
-  top: 97px;
+  top: 135px;
   overflow: visible;
 }
 
@@ -278,7 +334,7 @@ body {
   width: 172px;
   height: 244px;
   left: 236.5px;
-  top: 236px;
+  top: 300px;
 }
 
 #Planta1 {
@@ -286,7 +342,7 @@ body {
   width: 172px;
   height: 244px;
   left: 25px;
-  top: 236px;
+  top: 300px;
   cursor: pointer;
 }
 
@@ -393,53 +449,9 @@ body {
   top: 15px;
 }
 
-#ImageP3 {
-  position: relative;
-  width: 87px;
-  height: 87px;
-  top: -152px;
-  border-radius: 200px; 
-  left: 290px;
-}
 
-#ImageP4 {
-  position: relative;
-  width: 87px;
-  border-radius: 200px; 
-  height: 87px;
-  top: -152px;
-  left: 290px;
-}
 
-#Precio1 {
-  left: 320px;
-  top: -150px;
-  position: relative;
-  overflow: visible;
-  width: 23px;
-  white-space: nowrap;
-  text-align: center;
-  font-family: Segoe UI;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 21px;
-  color: rgba(0, 0, 0, 1);
-}
 
-#Precio2 {
-  left: 320px;
-  top: -150px;
-  position: relative;
-  overflow: visible;
-  width: 23px;
-  white-space: nowrap;
-  text-align: center;
-  font-family: Segoe UI;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 21px;
-  color: rgba(0, 0, 0, 1);
-}
 
 #Encabezado {
   position: absolute;
