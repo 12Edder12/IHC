@@ -5,189 +5,108 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Menu Principal</title>
-<link rel="stylesheet" type="text/css" id="applicationStylesheet"
- href="styles/menup.css"/>
-<scritp src="./scripts/menup.js"></scritp>
+<link rel="stylesheet" type="text/css" id="applicationStylesheet" href="styles/menup.css"/>
+<script src="./scripts/menup.js"></script>
 </head>
-
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-    const opciones = document.querySelectorAll(".opcion");
-    opciones.forEach(opcion => {
-        opcion.addEventListener("click", function() {
-            // Eliminar la clase 'active' de todas las opciones
-            opciones.forEach(opcion => {
-                opcion.classList.remove("active"); });
-            // Agregar la clase 'active' a la opción actual
-            this.classList.add("active");
-			const opcionSeleccionada = this.id;
-			switch(opcionSeleccionada) {
-                case "Todo":
-                    document.getElementById("Imagen1").src = "img/bonsaiC.png";
-					document.getElementById("Nombre1").innerHTML = "Bonsai Ciprés $10";
-                    document.getElementById("Imagen2").src = "img/tomillo.png";
-					document.getElementById("Nombre2").innerHTML = "Tomillo $12";
-					document.getElementById("Nombre3").innerHTML = "Ficus";
-                    document.getElementById("ImageP3").src = "img/ficus.png";
-					document.getElementById("Precio1").innerHTML = "$8";
-					document.getElementById("Nombre4").innerHTML = "Monstera";
-                    document.getElementById("ImageP4").src = "img/monstera.png";
-                    document.getElementById("Precio2").innerHTML = "$10";
-                    break;
-                case "Oficina":
-					document.getElementById("Imagen1").src = "https://cloudfront-us-east-1.images.arcpublishing.com/copesa/RAMJEXUX3RGMROAXZRIZU6PYZE.jpg";
-					document.getElementById("Nombre1").innerHTML = "Mini Cactus $11";
-                    document.getElementById("Imagen2").src = "https://pcfb.gumlet.io/images/articles/succulent-in-terra-cotta.jpeg?w=640&h=426&mode=crop&crop=smart&s=95f90126165673fdfef85b1e8df4a5ae";
-					document.getElementById("Nombre2").innerHTML = "Suculenta $12";
-					document.getElementById("Nombre4").innerHTML = "Pothos";
-                    document.getElementById("ImageP4").src = "https://m.media-amazon.com/images/I/51zxXg6uC0S._AC_SY580_.jpg";
-					document.getElementById("Precio2").innerHTML = "$10";
-					document.getElementById("Nombre3").innerHTML = "Bambú";
-                    document.getElementById("ImageP3").src = "https://media.glamour.mx/photos/64e4e548e7af699b8c68b217/4:3/w_2664,h_1998,c_limit/d%C3%B3nde-poner-el-bamb%C3%BA-de-la-suerte.jpg";
-                    document.getElementById("Precio1").innerHTML = "$6";
-                    break;
-                case "Casa":
-					document.getElementById("Imagen1").src = "https://bloomscape.com/wp-content/uploads/2022/10/bloomscape_sanseveria_zeylancia_sm_charcoal-scaled.jpg";
-					document.getElementById("Nombre1").innerHTML = "Sansevieria $10";
-                    document.getElementById("Imagen2").src = "https://cdn.shopify.com/s/files/1/0086/2519/3040/products/helechoboston_480x480.jpg?v=1619052136";
-					document.getElementById("Nombre2").innerHTML = "Helecho $12";
-					document.getElementById("Nombre4").innerHTML = "Palmera";
-                    document.getElementById("ImageP4").src = "https://imgix.be.green/63860775e5d91324309078.jpg?auto=compress";
-					document.getElementById("Precio2").innerHTML = "$10";
-					document.getElementById("Nombre3").innerHTML = "Ficus";
-                    document.getElementById("ImageP3").src = "img/ficus.png";
-                    document.getElementById("Precio1").innerHTML = "$8";
-                    break;
-                case "Bonzais":
-					document.getElementById("Imagen1").src = "https://upload.wikimedia.org/wikipedia/commons/5/56/Serissa.jpg";
-					document.getElementById("Nombre1").innerHTML = "S. Japonica $10";
-                    document.getElementById("Imagen2").src = "https://www.habibiplantitas.com/cdn/shop/products/bonsai-de-jade-planta-de-la-suerte-suculentas-cuidados-regalos-con-suculentas-regalos-para-hombres-regalo-de-pesame-capullo-de-mariposa-crisalida-pupa-habibi-plantitas.jpg?v=1680391120";
-					document.getElementById("Nombre2").innerHTML = "Jade $12";
-					document.getElementById("Nombre4").innerHTML = "Carmona";
-                    document.getElementById("ImageP4").src = "https://jardinesdelbonsai.com/wp-content/uploads/2020/10/vivero113.jpg";
-					document.getElementById("Precio2").innerHTML = "$10";
-					document.getElementById("Nombre3").innerHTML = "Zelkova";
-                    document.getElementById("ImageP3").src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKX21jF43IPfyI5A3FihRDU_jy15QBW7VS1A&s";
-                    document.getElementById("Precio1").innerHTML = "$8";
-                    break;
-            }
-        });
-    });
-});
-</script>
-
 <body>
 <div id="Menu_Principal">
 
-	<div id="Encabezado">
-		<img id="Logo"  src="img/logo_pantallainicio.png" >
-			
-		<div id="TituloApp" >
-			<div id="FloraDigital">
-				<span>FloraDigital</span>
-			</div>
-		</div>
-	</div>
+    <div id="Encabezado">
+        <img id="Logo" src="img/logo_pantallainicio.png" >
+        <div id="TituloApp" >
+            <div id="FloraDigital">
+                <span>FloraDigital</span>
+            </div>
+        </div>
+    </div>
 
-	<div id="Buscador">
-		<div class="input-container">
-			<input type="text" id="searchInput" placeholder="Buscar">
-			<div class="search-icon"></div>
-		</div>
-	</div>
+    <div id="Buscador">
+        <div class="input-container">
+            <input type="text" id="searchInput" placeholder="Buscar">
+            <div class="search-icon"></div>
+        </div>
+    </div>
 
-	<div id="Opciones">
-		<div class="opcion active" id="Todo">
-			<span>Todo</span>
-			<div class="bolita"></div>
-		</div>
-		<div class="opcion" id="Oficina">
-			<span>Oficina</span>
-			<div class="bolita"></div>
-		</div>
-		<div class="opcion" id="Casa">
-			<span>Casa</span>
-			<div class="bolita"></div>
-		</div>
-		<div class="opcion" id="Bonzais">
-			<span>Bonzais</span>
-			<div class="bolita"></div>
-		</div>
-	</div>
+    <div id="Opciones">
+        <div class="opcion active" id="Todo">
+            <span>Todo</span>
+            <div class="bolita"></div>
+        </div>
+        <div class="opcion" id="Oficina">
+            <span>Oficina</span>
+            <div class="bolita"></div>
+        </div>
+        <div class="opcion" id="Casa">
+            <span>Casa</span>
+            <div class="bolita"></div>
+        </div>
+        <div class="opcion" id="Bonzais">
+            <span>Bonzais</span>
+            <div class="bolita"></div>
+        </div>
+    </div>
 
-	<div id="Popular">
-		<span>Popular</span>
-	</div>
-	
-	<div id="Planta3">
-		<svg class="ContenedorPlantaPopular">
-			<rect id="ContenedorPlantaPopular" rx="15" ry="15" x="0" y="0" width="173" height="161">
-			</rect>
-		</svg>
-		<div id="Nombre3">
-			<span>Ficus</span>
-		</div>
-		<img id="ImageP3" src="img/ficus.png">
-	
-		<div id="Precio1">
-			<span>$8</span>
-		</div>
-	</div>
-	
-	<div class="icon-container">
-		<img id="icon-casa" src="img/casa.png" class="icon active">
-		<img onclick="window.location.href='Carrito.html'" id="icon-carro" src="img/carro.png" class="icon">
-		<img  id="icon-settings" src="img/settings.png" class="icon">
-	</div>
-	
-	<div id="Planta1" onclick="window.location.href='Vista_Detalle.html'" >
-		<svg class="CuadroImagen">
-			<rect id="CuadroImagen" rx="10" ry="10" x="0" y="0" width="173" height="205"></rect>
-		</svg>
-		<svg class="ContenedorPrecio">
-			<rect id="ContenedorPrecio" rx="10" ry="10" x="0" y="0" width="173" height="54"></rect>
-		</svg>
-		<div id="Nombre1">
-			<span>Bonsai Ciprés $10</span>
-		</div>
-		<img id="Imagen1" src="img/bonsaiC.png">
-	</div>
-	
-
-	<div id="Planta2" >
-		<svg class="CuadroImagen">
-			<rect id="CuadroImagen" rx="10" ry="10" x="0" y="0" width="173" height="205">
-			</rect>
-		</svg>
-		<svg class="ContenedorPrecio">
-			<rect id="ContenedorPrecio"  rx="10" ry="10" x="0" y="0" width="173" height="54">
-			</rect>
-		</svg>
-		<div id="Nombre2">
-			<span>Tomillo $12</span>
-		</div>
-		<img id="Imagen2" src="img/tomillo.png">
-	</div>
-	
-	
-	<div id="Planta4">
-		<svg class="ContenedorPlantaPopular">
-			<rect id="ContenedorPlantaPopular" rx="15" ry="15" x="0" y="0" width="173" height="161">
-			</rect>
-		</svg>
-	<div id="Nombre4">
-		<span>Monstera</span>
-	</div>
-	<img id="ImageP4" src="img/Monstera.png" >
-
-	<div id="Precio2">
-		<span>$10</span>
-	</div>
-</div>
-		
-	
-		
-	
+    <div id="Popular">
+        <span>Popular</span>
+    </div>
+    
+    <div id="Planta3">
+        <svg class="ContenedorPlantaPopular">
+            <rect id="ContenedorPlantaPopular" rx="15" ry="15" x="0" y="0" width="173" height="161"></rect>
+        </svg>
+        <div id="Nombre3">
+            <span>Ficus</span>
+        </div>
+        <img id="ImageP3" src="img/ficus.png">
+        <div id="Precio1">
+            <span>$8</span>
+        </div>
+    </div>
+    
+    <div class="icon-container">
+        <img id="icon-casa" src="img/casa.png" class="icon active">
+        <img onclick="window.location.href='Carrito.html'" id="icon-carro" src="img/carro.png" class="icon">
+        <img id="icon-settings" src="img/settings.png" class="icon">
+    </div>
+    
+    <div id="Planta1" onclick="window.location.href='Vista_Detalle.html'">
+        <svg class="CuadroImagen">
+            <rect id="CuadroImagen" rx="10" ry="10" x="0" y="0" width="173" height="205"></rect>
+        </svg>
+        <svg class="ContenedorPrecio">
+            <rect id="ContenedorPrecio" rx="10" ry="10" x="0" y="0" width="173" height="54"></rect>
+        </svg>
+        <div id="Nombre1">
+            <span>Bonsai Ciprés $10</span>
+        </div>
+        <img id="Imagen1" src="img/bonsaiC.png">
+    </div>
+    
+    <div id="Planta2">
+        <svg class="CuadroImagen">
+            <rect id="CuadroImagen" rx="10" ry="10" x="0" y="0" width="173" height="205"></rect>
+        </svg>
+        <svg class="ContenedorPrecio">
+            <rect id="ContenedorPrecio" rx="10" ry="10" x="0" y="0" width="173" height="54"></rect>
+        </svg>
+        <div id="Nombre2">
+            <span>Tomillo $12</span>
+        </div>
+        <img id="Imagen2" src="img/tomillo.png">
+    </div>
+    
+    <div id="Planta4">
+        <svg class="ContenedorPlantaPopular">
+            <rect id="ContenedorPlantaPopular" rx="15" ry="15" x="0" y="0" width="173" height="161"></rect>
+        </svg>
+        <div id="Nombre4">
+            <span>Monstera</span>
+        </div>
+        <img id="ImageP4" src="img/Monstera.png">
+        <div id="Precio2">
+            <span>$10</span>
+        </div>
+    </div>
 </div>
 </body>
 </html>
