@@ -63,7 +63,7 @@
 
 	#Mi_carrito {
 		left: 16px;
-		top: 159px;
+		top: 220px;
 		position: absolute;
 		overflow: visible;
 		width: 140px;
@@ -97,8 +97,7 @@
 
 	#Logo {
 		width: 60px;  
-		height: auto;
-	
+		height: auto;	
 	}
 
 	.Separador{
@@ -159,7 +158,7 @@
 		width: 397px;
 		height: 183px;
 		left: 16px;
-		top: 218px;
+		top: 288px;
 		overflow: visible;
 	}
 	#ContenedorPlanta {
@@ -250,7 +249,7 @@
 		width: 397px;
 		height: 183px;
 		left: 16px;
-		top: 423px;
+		top: 500px;
 	}
 	#ContenedorPlanta2 {
 		fill: rgba(235,220,203,1);
@@ -343,7 +342,7 @@
 		width: 385px;
 		height: 41px;
 		left: 22px;
-		top: -550px;
+		top: -500px;
 	}
 	
 	
@@ -382,7 +381,7 @@
 		width: 211px;
 		height: 73px;
 		left: 109px;
-		top: 708px;
+		top: 735px;
 		cursor: pointer;
 	}
 	#Contenedor_Boton {
@@ -419,7 +418,7 @@
 		width: 204px;
 		height: 58px;
 		left: 15px;
-		top: 20px;
+		top:75px;
 	}
 	
 	
@@ -569,6 +568,11 @@
 		#Boton {
 			top: 750px;
 			left: 37%;
+		}
+
+		#Encabezado{
+			top:20px
+
 		}
 
 	}
